@@ -163,7 +163,7 @@ async def bgmi(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         return
 
     if len(context.args) != 3:
-        await update.message.reply_text('Usage: /bgmi <target_ip> <port> <duration>')
+        await update.message.reply_text('Usage: /chodo <target_ip> <port> <duration>')
         return
 
     target_ip = context.args[0]
